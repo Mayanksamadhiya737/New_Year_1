@@ -13,7 +13,7 @@ const bgHeart = document.querySelector('.bg_heart');
     let currentImageIndex = 0;
 
     function changeBackground() {
-        bgHeart.style.opacity = 0.7; // Fade out
+        bgHeart.style.opacity = 0.9; // Fade out
         setTimeout(() => {
           bgHeart.style.backgroundImage = `url('${images[currentImageIndex]}')`;
           bgHeart.style.opacity = 1; // Fade in
